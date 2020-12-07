@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183be651-fe67-4ef4-aa36-1691317b7de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/client/styles/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/styles/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/styles/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/styles/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Personal Blog Website/css/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Personal Blog Website/css/nav-bar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Weather Journal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Weather Journal/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Weather Journal/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Weather Journal/server.js" afterDir="false" />
@@ -38,11 +42,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607340369301</updated>
-      <workItem from="1607340370530" duration="741000" />
+      <workItem from="1607340370530" duration="6006000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607341879388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607341879388" />
   </component>
 </project>
