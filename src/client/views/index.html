@@ -13,25 +13,54 @@
     <body>
 
         <header>
-            <div class="">
-                Logo
+            <div class="title">
+                <h1>News Article Sentiment Analysis</h1>
             </div>
-            <div class="">
-                navigation
-            </div>
+<!--            <div class="">-->
+<!--                navigation-->
+<!--            </div>-->
         </header>
 
         <main>
+<!--            <section>-->
+<!--                <form class="" onsubmit="return Client.handleSubmit(event)">-->
+<!--                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">-->
+<!--                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">-->
+<!--                </form>-->
+<!--            </section>-->
+
+<!--            <section>-->
+<!--                <strong>Form Results:</strong>-->
+<!--                <div id="results"></div>-->
+<!--            </section>-->
+
             <section>
+<!--                https://www.bbc.com/news/uk-politics-55208218-->
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                    <label for="url">Enter a url</label>
+                    <input id="url" type="text" name="input" value=""  placeholder="URL">
+
+                    <label for="lang">Choose language of text</label>
+                    <fieldset id="lang">
+                        <label for="en">English</label>
+                        <input type="radio" value="en" name="lang" id="en">
+                        <label for="es">Spanish</label>
+                        <input type="radio" value="es" name="lang" id="es">
+                    </fieldset>
+
+
+                    <input id="form-submit" type="submit" name="" value="Get Sentiment" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
             </section>
 
-            <section>
+            <section id="form-results">
                 <strong>Form Results:</strong>
-                <div id="results"></div>
+                <div id="results">
+                    <div id="agreement"></div>
+                    <div id="irony"></div>
+                    <div id="subjectivity"></div>
+                    <div id="sentiment"></div>
+                </div>
             </section>
         </main>
 

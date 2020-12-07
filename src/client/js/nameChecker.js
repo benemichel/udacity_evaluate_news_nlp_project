@@ -1,4 +1,4 @@
-function checkForName(inputText) {
+function validateSubmit(inputText) {
     console.log("::: Running checkForName :::", inputText);
     let names = [
         "Picard",
@@ -9,8 +9,8 @@ function checkForName(inputText) {
     ]
 
     if(names.includes(inputText)) {
-        alert("Welcome, Captain!")
+        //alert("Welcome, Captain!")
     }
 }
 
-export { checkForName }
+export { validateSubmit }
