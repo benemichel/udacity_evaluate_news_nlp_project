@@ -3,6 +3,9 @@ const express = require('express');
 const mockAPIResponse = require('./mockAPI.js');
 const dotenv = require('dotenv');
 const fetch = require("node-fetch");
+
+
+
 dotenv.config();
 
 const app = express();
@@ -27,9 +30,12 @@ app.use(function (req, res, next) {
 });
 
 // designates what port the app will listen to for incoming requests
-app.listen(8081, function () {
-    console.log('Example app listening on port 8081!')
-});
+const PORT = 8081;
+if (process.env.NODE_ENV !== 'test') {
+    const server = app.listen(PORT, () => {
+        console.log(`running on localhost, port: ${PORT}`);
+    });
+}
 
 app.get('/', function (req, res) {
     // res.sendFile('dist/index.html')
