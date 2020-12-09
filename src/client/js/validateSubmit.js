@@ -21,9 +21,6 @@ function validationListener(event) {
     }
 }
 
-const urlField = document.getElementById('url');
 
-document.addEventListener('DOMContentLoaded', validationListener);
-urlField.addEventListener('input', validationListener);
 
-export { validateUrl }
+export { validateUrl, validationListener }

@@ -38,8 +38,81 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Jest.Testing the form submit functionality">
+    <configuration name="Testing the form submit functionality" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__test__/testFormHandler.spec.js" />
+      <test-names>
+        <test-name value="Testing the form submit functionality" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing the form submit functionality.Testing the handleSubmit() function with incomplete data" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/testFormHandler.spec.js" />
+      <test-names>
+        <test-name value="Testing the form submit functionality" />
+        <test-name value="Testing the handleSubmit() function with incomplete data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing the form submit functionality.Testing the handleSubmit() function with valid data" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/testFormHandler.spec.js" />
+      <test-names>
+        <test-name value="Testing the form submit functionality" />
+        <test-name value="Testing the handleSubmit() function with valid data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="testFormHandler.spec.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/__test__/testFormHandler.spec.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testValidateSubmit.spec.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/__test__/testValidateSubmit.spec.js" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Testing the form submit functionality" />
+        <item itemvalue="Jest.Testing the form submit functionality.Testing the handleSubmit() function with incomplete data" />
+        <item itemvalue="Jest.testFormHandler.spec.js" />
+        <item itemvalue="Jest.Testing the form submit functionality.Testing the handleSubmit() function with valid data" />
+        <item itemvalue="Jest.testValidateSubmit.spec.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607340369301</updated>
-      <workItem from="1607340370530" duration="25523000" />
+      <workItem from="1607340370530" duration="32543000" />
     </task>
     <servers />
   </component>
@@ -57,22 +130,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1607411450012">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1607425889156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607411450012" />
-    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1607411450012">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607425889156" />
+    <state x="686" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607423775623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607411450012" />
-    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1607411450012">
+    <state x="686" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607423775623" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1607496137329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607411450012" />
-    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1607411450012">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607496137329" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1607496137329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607411450012" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607496137329" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1607496137329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607496137329" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1607496137329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607496137329" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1607411450013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

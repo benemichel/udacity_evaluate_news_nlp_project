@@ -1,3 +1,5 @@
+const fetch = require("node-fetch");
+
 function handleSubmit(event) {
     event.preventDefault()
 
@@ -11,7 +13,6 @@ function handleSubmit(event) {
     }
 
     postData(data).then(res => {
-        console.log("res from server: " + JSON.stringify(res));
         document.getElementById('agreement').innerHTML = 'Agreement: ' + res.agreement;
         document.getElementById('irony').innerHTML = 'Irony: ' + res.irony;
         document.getElementById('subjectivity').innerHTML = 'Subjectivity: ' + res.subjectivity;
@@ -39,6 +40,6 @@ const postData = async (data = {}) => {
     }
 }
 
-export {handleSubmit}
+export {handleSubmit, postData}
 
 

@@ -16,7 +16,9 @@ Client side run ``npm run build-dev`` to start webpack dev server. Runs on local
 Server side run ``npm run start`` to start node server. Runs on localhost:8081
 
 ## Tests
-Run ``npm run test``
+There is no mocking for local API. So start server with ``npm run start`` first.
+
+Then run ``npm run test``
 
 ## Validation
 Validation with appropriate error messages is provided for both url and language selection.
