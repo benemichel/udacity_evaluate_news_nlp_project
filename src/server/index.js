@@ -4,8 +4,6 @@ const mockAPIResponse = require('./mockAPI.js');
 const dotenv = require('dotenv');
 const fetch = require("node-fetch");
 
-
-
 dotenv.config();
 
 const app = express();
@@ -17,9 +15,7 @@ app.use(bodyParser.json());
 const cors = require('cors');
 app.use(cors());
 
-
 app.use(express.static('dist'));
-
 console.log(__dirname);
 
 
@@ -38,17 +34,12 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 app.get('/', function (req, res) {
-    // res.sendFile('dist/index.html')
     res.sendFile(path.resolve('src/client/views/index.html'))
 })
 
 
 console.log(`Your API key is ${process.env.API_KEY}`);
-// app.post('/sentiment', (req, res) => {
-//     const data = req.body;
-//
-//
-// })
+
 
 app.post('/sentiment', (req, res) => {
 
@@ -59,9 +50,10 @@ app.post('/sentiment', (req, res) => {
 
     console.log("url send to api:" + url);
     getSentiment(url, lang).then(apiRes => {
-        res.send(apiRes)
+        res.send(apiRes);
     }).catch(err => {
         console.log("GET /sentiment error", err);
+        res.send(400);
     });
 });
 
@@ -79,12 +71,20 @@ const getSentiment = async (url, lang) => {
     const res = await fetch(fullUrl);
     const json = await res.json();
 
+    console.log(`api json response ${json}`);
+
     const responseData = {
         'agreement': json.agreement,
         'irony': json.irony,
         'subjectivity': json.subjectivity,
         'sentiment': json.score_tag,
     }
+
+    if (!responseData.agreement) {
+        console.log('invalid API response');
+        throw new Error(json);
+    }
+
     console.log(`api response ${JSON.stringify(responseData)}`);
     return responseData;
 }
