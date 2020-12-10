@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="183be651-fe67-4ef4-aa36-1691317b7de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/styles/base.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/styles/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Capstone Travel App/src/client/styles/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Capstone Travel App/src/client/styles/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Capstone Travel App/src/client/styles/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project Capstone Travel App/src/client/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Personal Blog Website/css/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Personal Blog Website/css/nav-bar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Weather Journal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Weather Journal/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Weather Journal/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Weather Journal/server.js" afterDir="false" />
@@ -27,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lKKVnBCA4yx4LUKDdeWeSYso1w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,7 +125,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607340369301</updated>
-      <workItem from="1607340370530" duration="36698000" />
+      <workItem from="1607340370530" duration="39183000" />
+      <workItem from="1607506345509" duration="6110000" />
     </task>
     <servers />
   </component>
@@ -138,22 +142,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607423775623" />
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1607500450966">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1607579384232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607500450966" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1607500450966">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607579384232" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1607579384232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607500450966" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1607500450966">
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607579384232" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1607579384231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607500450966" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1607500450966">
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607579384231" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1607579384232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607500450966" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/1920.170.1920.1040@0.0.1920.1040" timestamp="1607579384232" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1607411450013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

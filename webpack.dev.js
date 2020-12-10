@@ -1,7 +1,8 @@
-const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const {merge} = require('webpack-merge');
 const commonConfig = require('./webpack.common');
-const HtmlWebPackPlugin = require("html-webpack-plugin")
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports =
     merge(commonConfig.commonConfig,
@@ -18,6 +19,8 @@ module.exports =
             ]
         },
         plugins: [
+            new WorkboxPlugin.GenerateSW(),
+
             new HtmlWebPackPlugin({
                 template: "./src/client/views/index.html",
                 filename: "./index.html",
