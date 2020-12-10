@@ -7,8 +7,8 @@
       <change afterPath="$PROJECT_DIR$/../Project Capstone Travel App/src/client/styles/header.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project Capstone Travel App/src/client/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/mockAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/js/validateSubmit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/js/validateSubmit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Personal Blog Website/css/nav-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Personal Blog Website/css/nav-bar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Weather Journal/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Weather Journal/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project Weather Journal/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Project Weather Journal/server.js" afterDir="false" />
@@ -127,7 +127,7 @@
       <updated>1607340369301</updated>
       <workItem from="1607340370530" duration="39183000" />
       <workItem from="1607506345509" duration="6572000" />
-      <workItem from="1607593673129" duration="313000" />
+      <workItem from="1607593673129" duration="961000" />
     </task>
     <servers />
   </component>

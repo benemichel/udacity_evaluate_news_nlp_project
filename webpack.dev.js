@@ -1,7 +1,6 @@
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const {merge} = require('webpack-merge');
 const commonConfig = require('./webpack.common');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
 const WorkboxPlugin = require('workbox-webpack-plugin');
 
 module.exports =

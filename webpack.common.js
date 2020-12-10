@@ -1,4 +1,4 @@
-const HtmlWebPackPlugin = require("html-webpack-plugin")
+const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 const common = {
         entry: './src/client/index.js',
